@@ -1,12 +1,12 @@
-# _Roman Numerals_
+# _Beep Boop Converter_
 
-#### _Roman Numerals, 3/29/18_
+#### _Beep Boop Converter, 3/30/18_
 
-#### By _**Jim Palowski and Randy Weyer**_
+#### By _**Randy Weyer**_
 
 ## Description
 
-_A simple website that takes an integer input and converts it to a Roman Numeral._
+_A simple website that takes an integer input counts up to it. There are specific conditions that affect what is outputted._
 
 ## Setup/Installation Requirements
 
@@ -17,18 +17,18 @@ _A simple website that takes an integer input and converts it to a Roman Numeral
 
 ## Specs
 
-* _Program checks if number is less than 4000, as that is the limit for Roman Numerals._
-* _Function checks if a number is greater than 900, 400, 90, 40, 9, 4_
-* _If the numbers the number starts with a 9 or 4 it will properly append the numeral for that value. _
-* _If the number is over the largest Roman Numeral, it will append the roman numeral and subtract that value._
+* _Function checks if number contains a 1 or 0._
+* _Function appends a beep or boop respectively_
+* _If the number is divisible by 3, it outputs "I'm sorry, Dave. I'm afraid I can't do that."_
+* _Program allows for custom name input and a choice of either ascending or descending order._
 
 ## Known Bugs
 
-_No known bugs_
+_There is some delay for numbers greater than 10,000_
 
 ## Support and contact details
 
-_If you would like to contact me for any further information or update requests, email us at PalowskiJim@gmail.com or RandyPWeyer@gmail.com_
+_If you would like to contact me for any further information or update requests, email me at RandyPWeyer@gmail.com_
 
 ## Technologies Used
 
@@ -38,4 +38,4 @@ _HTML/CSS, Bootstrap, Javascript, jQuery _
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2018 **_Jim Palowski and Randy Weyer_**
+Copyright (c) 2018 **_Randy Weyer_**
