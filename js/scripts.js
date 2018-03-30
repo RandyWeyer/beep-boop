@@ -1,8 +1,10 @@
 var output = "";
 
 var beepBoopConverter = function(number) {
+
+  $("#results").text("");
+
   for (var i = 0; i < number; i++) {
-    console.log(i);
 
     if ((i.toString().includes("1"))||(i.toString().includes("0"))||(i % 3 == 0)) {
       if (i % 3 == 0 && i != 0) {
