@@ -32,7 +32,7 @@ _If you would like to contact me for any further information or update requests,
 
 ## Technologies Used
 
-_HTML/CSS, Bootstrap, Javascript, jQuery _
+_HTML/CSS, Bootstrap, Javascript, jQuery_
 
 ### License
 
