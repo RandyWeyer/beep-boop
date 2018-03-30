@@ -1,17 +1,22 @@
-var output = "";
+  var output = "";
+  var userName = "";
 
-var beepBoopConverter = function(number) {
+var beepBoopConverter = function(number, name) {
 
   $("#results").text("");
+
+  if (userName == "") {
+    name = "Dave";
+  }
 
   for (var i = 0; i < number; i++) {
 
     if ((i.toString().includes("1"))||(i.toString().includes("0"))||(i % 3 == 0)) {
-      if (i % 3 == 0 && i != 0) {
-        $("#results").append("I'm sorry, Dave. I'm afraid I can't do that." + "<br>")
+      if (i % 3 == 0) {
+        $("#results").append("I'm sorry, " + name + ". I'm afraid I can't do that." + "<br>")
       } else if (i.toString().includes("1")) {
         $("#results").append("Boop" + "<br>");
-      }else if (i.toString().includes("0")) {
+      } else if (i.toString().includes("0")) {
         $("#results").append("Beep" + "<br>");
       }
     } else {
@@ -27,10 +32,11 @@ $(document).ready(function(event) {
     event.preventDefault();
 
     var userInput = parseInt($("#user-input").val());
+    userName = $("#user-name").val();
 
     output="";
 
-    var userResult = beepBoopConverter(userInput);
+    var userResult = beepBoopConverter(userInput, userName);
 
     $("#results").append(userResult);
 
