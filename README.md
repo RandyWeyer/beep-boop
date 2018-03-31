@@ -17,7 +17,7 @@ _A simple website that takes an integer input counts up to it. There are specifi
 
 ## Specs
 
-* _Function checks if number contains a 1 or 0._
+* _Function checks if number contains a 0 or 1._
 * _Function appends a beep or boop respectively_
 * _If the number is divisible by 3, it outputs "I'm sorry, Dave. I'm afraid I can't do that."_
 * _Program allows for custom name input and a choice of either ascending or descending order._
